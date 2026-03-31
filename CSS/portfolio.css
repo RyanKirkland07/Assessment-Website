@@ -26,9 +26,11 @@ a {
 .banner {
     display: flex;
     gap: 64px;
-    flex-wrap: nowrap;
 }
 
+.banner figure {
+    flex-shrink: 2;
+}
 
 hr {
     flex: 0 0 100%;
