@@ -8,9 +8,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     flex-wrap: wrap;
-    overflow-x: scroll;
 }
 
 ul {
@@ -29,10 +28,6 @@ a {
     gap: 64px;
 }
 
-.banner figure {
-    flex: 1 1 auto;
-}
-
 hr {
     flex: 0 0 100%;
     margin: 0px;
@@ -43,15 +38,13 @@ hr {
 .banner-right {
     display: flex;
     flex-direction: column;
-    flex: 1 2 auto;
 }
 
 .main-content {
     flex: 1;
-    display: flex;
-    justify-content: space-between;
 }
 
-.footer {
+footer {
     justify-self: flex-end;
+    text-align: center;
 }
