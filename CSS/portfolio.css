@@ -1,7 +1,7 @@
 * {
     color: black;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -19,6 +19,16 @@ h1, h2, h3{
 
 ul {
     list-style-type: square;
+}
+
+nav ul {
+    display: flex;
+    gap: 8px;
+    padding: 0px;
+    list-style-type: none;
+    li a {
+        text-decoration: none;
+    }
 }
 
 a {
@@ -39,6 +49,12 @@ a {
     height: auto;
 }
 
+.logo-cap {
+    text-decoration: underline dashed;
+    font-weight: bold;
+}
+
+
 hr {
     flex: 0 0 100%;
     margin: 0px;
@@ -49,6 +65,10 @@ hr {
 .banner-right {
     display: flex;
     flex-direction: column;
+}
+
+.banner-right h1 {
+    text-align: left;
 }
 
 .banner-right p{
@@ -64,4 +84,9 @@ footer {
     justify-self: flex-end;
     text-align: center;
     background-color: darkgray;
+}
+
+#portrait > img{
+    width: 300px;
+    height: 400px;
 }
