@@ -1,3 +1,4 @@
+/* Whole Website */
 * {
     color: black;
     box-sizing: border-box;
@@ -38,6 +39,14 @@ a {
     text-decoration: underline;
 }
 
+hr {
+    flex: 0 0 100%;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Banners */
 .banner {
     display: flex;
     gap: 64px;
@@ -54,14 +63,6 @@ a {
     font-weight: bold;
 }
 
-
-hr {
-    flex: 0 0 100%;
-    margin: 0px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 .banner-right {
     display: flex;
     flex-direction: column;
@@ -76,20 +77,27 @@ hr {
     text-align: right;
 }
 
-.main-content {
-    flex: 1;
-}
-
-footer {
-    justify-self: flex-end;
-    text-align: center;
-    background-color: darkgray;
-}
-
 #portrait > img{
     width: 300px;
     height: 400px;
 }
+
+/* Main Content */
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#index-content {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Table Content */
 
 th, td {
     border: solid 2px black;
@@ -105,3 +113,12 @@ thead{
 table {
     margin: 0 auto;
 }
+
+/* Footers */
+
+footer {
+    justify-self: flex-end;
+    text-align: center;
+    background-color: darkgray;
+}
+
