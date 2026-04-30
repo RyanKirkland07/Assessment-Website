@@ -17,6 +17,9 @@ h1, h2, h3{
     font-weight: 800;
 }
 
+ol {
+    list-style-type: upper-roman;
+}
 
 ul {
     list-style-type: square;
@@ -81,6 +84,10 @@ hr {
 #portrait > img{
     width: 300px;
     height: 400px;
+}
+
+.banner-description {
+    width: 200px;
 }
 
 /* Main Content */
