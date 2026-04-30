@@ -20,6 +20,7 @@ h1, h2, h3{
 
 ul {
     list-style-type: square;
+    display: inline-block;
 }
 
 nav ul {
@@ -95,6 +96,31 @@ hr {
 #index-content {
     flex-direction: row;
     justify-content: space-between;
+}
+
+/* Unique Content Lists */
+
+#index-content ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 200px;
+}
+
+#resume-content li {
+    text-align: center;
+
+    h2 {
+        text-align: left;
+    }
+}
+
+.resume-ul {
+    display: inline-block;
+
+    li {
+        text-align: center;
+    }
 }
 
 /* Table Content */
