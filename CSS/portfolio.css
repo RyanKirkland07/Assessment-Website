@@ -130,19 +130,17 @@ hr {
     height: 200px;
 }
 
-#resume-content li {
-    text-align: center;
-
-    h2 {
-        text-align: left;
-    }
-}
-
 .resume-ul {
-    display: inline-block;
+    list-style-position: outside;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     li {
-        text-align: center;
+        min-width: 300px;
+        max-width: 300px;
+
+        text-align: start;
     }
 }
 
