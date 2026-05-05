@@ -13,10 +13,6 @@ body {
     flex-wrap: wrap;
 }
 
-.flex{
-    flex-shrink: 0;
-}
-
 h1, h2, h3{
     font-weight: 800;
 }
@@ -125,10 +121,6 @@ hr {
     justify-content: space-between;
     align-items: stretch;
 }
-
-/* #information {
-    height: 450px;
-} */
 
 /* Unique Content Lists */
 
