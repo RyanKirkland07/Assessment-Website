@@ -13,6 +13,10 @@ body {
     flex-wrap: wrap;
 }
 
+.flex{
+    flex-shrink: 0;
+}
+
 h1, h2, h3{
     font-weight: 800;
 }
@@ -119,8 +123,12 @@ hr {
 #index-content {
     flex-direction: row;
     justify-content: space-between;
-    align-items: start;
+    align-items: stretch;
 }
+
+/* #information {
+    height: 450px;
+} */
 
 /* Unique Content Lists */
 
@@ -174,8 +182,7 @@ footer {
 
 @media print{
     nav, footer {display: none;}
-    body {
-        background-color: white;
-        font-size: 24px;
-    }
+    body { background-color: white; }
+    p, li, td { font-size: 20px; }
+    h1, h2, h3 { font-size: 24px; }
 }
