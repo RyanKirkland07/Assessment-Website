@@ -13,8 +13,11 @@ body {
     flex-wrap: wrap;
 }
 
-h1, h2, h3{
-    font-weight: 800;
+h1 { font-weight: 800; }
+h2 { font-weight: 700; }
+h3 { 
+    font-weight: 600;
+    text-decoration:underline dotted green;
 }
 
 /* Lists */
@@ -34,7 +37,7 @@ nav ul {
     padding: 0px;
     list-style-type: none;
     li a {
-        text-decoration: none;
+        text-decoration: underline solid green;
     }
 }
 
@@ -54,7 +57,7 @@ a {
     a {
         margin: 0 auto;
         padding: 12px;
-        color: white;
+        color: green;
         font-size: 24px;
     }
 }
@@ -97,7 +100,7 @@ hr {
     text-align: right;
 }
 
-#portrait > img{
+.portrait > img{
     width: 300px;
     height: 400px;
 }
