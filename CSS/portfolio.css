@@ -188,9 +188,4 @@ footer {
 
 /* Print Friendly Styles */
 
-@media print{
-    nav, footer {display: none;}
-    body { background-color: white; }
-    p, li, td { font-size: 20px; }
-    h1, h2, h3 { font-size: 24px; }
-}
+
