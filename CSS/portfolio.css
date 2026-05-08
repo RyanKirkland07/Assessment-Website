@@ -31,6 +31,13 @@ ul {
     display: inline-block;
 }
 
+a {
+    color: rgb(166, 0, 116);
+    font-weight: 500;
+    font-size: large;
+    text-decoration: underline;
+}
+
 nav ul {
     display: flex;
     gap: 8px;
@@ -39,13 +46,6 @@ nav ul {
     li a {
         text-decoration: underline solid green;
     }
-}
-
-a {
-    color: rgb(166, 0, 116);
-    font-weight: 500;
-    font-size: large;
-    text-decoration: underline;
 }
 
 .nav-buttons{
@@ -145,6 +145,19 @@ hr {
         max-width: 300px;
 
         text-align: start;
+    }
+}
+
+.resume-nav {
+    border-radius: 12px;
+    background-color: white;
+    margin-left: 12px;
+    border-style: solid;
+
+    a {
+        margin: 0 auto;
+        font-size: 18px;
+        color: black;
     }
 }
 
