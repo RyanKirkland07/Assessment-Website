@@ -17,7 +17,7 @@ h1 { font-weight: 800; }
 h2 { font-weight: 700; }
 h3 { 
     font-weight: 600;
-    text-decoration:underline dotted green;
+    text-decoration: underline dashed rgb(0, 0, 0);
 }
 
 /* Lists */
@@ -44,7 +44,7 @@ nav ul {
     padding: 0px;
     list-style-type: none;
     li a {
-        text-decoration: underline solid green;
+        text-decoration: underline solid lightgreen;
     }
 }
 
@@ -57,7 +57,7 @@ nav ul {
     a {
         margin: 0 auto;
         padding: 12px;
-        color: green;
+        color: lightgreen;
         font-size: 24px;
     }
 }
