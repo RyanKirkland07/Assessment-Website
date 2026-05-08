@@ -125,6 +125,36 @@ hr {
     align-items: stretch;
 }
 
+#resume-content {
+    flex-direction: row;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+
+    background-color: darkgray;
+    border: 2px solid black;
+
+    align-self: flex-start;
+    position: sticky;
+    top: 25vh;
+
+    padding: 8px;
+
+    a {
+        margin: 0 auto;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        padding: 4px;
+
+        border: solid 2px black;
+        border-radius: 12px;
+        color: lightgreen;
+        background-color: black;
+    }
+}
+
 /* Unique Content Lists */
 
 #index-content ul{
