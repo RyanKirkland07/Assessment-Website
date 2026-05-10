@@ -35,6 +35,9 @@ ul {
 a {
     font-weight: 500;
     font-size: large;
+    text-decoration: none solid;
+}
+a:hover{
     text-decoration: underline;
 }
 a:link{
@@ -50,7 +53,7 @@ nav ul {
     padding: 0px;
     list-style-type: none;
     li a {
-        text-decoration: underline solid lightgreen;
+        text-decoration-color: lightgreen;
     }
 }
 
