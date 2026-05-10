@@ -61,7 +61,6 @@ nav ul {
 
 .nav-li {
     background-color: black;
-    border: none 2px black;
     border-radius: 9999px;
     margin-left: 12px;
 }
@@ -149,7 +148,7 @@ hr {
     padding: 8px;
 }
 #sidebar > a {
-    border: solid 2px black;
+    border: solid 2px darkgray;
     border-radius: 9999px;
     background-color: black;
     padding: 4px;
