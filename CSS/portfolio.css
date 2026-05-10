@@ -40,7 +40,7 @@ a {
     text-decoration: none solid;
 }
 a:hover { text-decoration: underline; }
-.external-link:link { color: rgb(55, 255, 0); }
+.external-link:link, .contact-link { color: rgb(55, 255, 0); }
 .external-link:visited { color: rgb(242, 0, 255) }
 
 nav ul {
