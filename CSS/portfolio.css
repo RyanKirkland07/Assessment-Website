@@ -40,31 +40,30 @@ a {
     text-decoration: none solid;
 }
 a:hover { text-decoration: underline; }
-a:link { color: rgb(55, 255, 0); }
-a:visited { color: rgb(242, 0, 255) }
+.external-link:link { color: rgb(55, 255, 0); }
+.external-link:visited { color: rgb(242, 0, 255) }
 
 nav ul {
     display: flex;
     gap: 8px;
     padding: 0px;
     list-style-type: none;
-    li a {
-        text-decoration-color: lightgreen;
-    }
+    
+}
+.nav-buttons {
+    text-decoration-color: lightgreen;
+
+    margin: 0 auto;
+    padding: 12px;
+    color: lightgreen;
+    font-size: 24px;
 }
 
-.nav-buttons {
+.nav-li {
     background-color: black;
     border: none 2px black;
     border-radius: 9999px;
     margin-left: 12px;
-
-    a {
-        margin: 0 auto;
-        padding: 12px;
-        color: lightgreen;
-        font-size: 24px;
-    }
 }
 
 /* hr rules - lets hr elements work within flex boxes */
@@ -138,6 +137,7 @@ hr {
 #sidebar {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 
     background-color: darkgray;
     border: 2px solid black;
@@ -147,18 +147,13 @@ hr {
     top: 25vh;
 
     padding: 8px;
-
-    a {
-        margin: 0 auto;
-        margin-top: 12px;
-        margin-bottom: 12px;
-        padding: 4px;
-
-        border: solid 2px black;
-        border-radius: 12px;
-        color: lightgreen;
-        background-color: black;
-    }
+}
+#sidebar > a {
+    border: solid 2px black;
+    border-radius: 9999px;
+    background-color: black;
+    padding: 4px;
+    font-size: 18px;
 }
 
 /* Rules for Lists Unique to Different Web Pages */
@@ -175,26 +170,22 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.resume-ul li {
+    min-width: 300px;
+    max-width: 300px;
 
-    li {
-        min-width: 300px;
-        max-width: 300px;
-
-        text-align: start;
-    }
+    text-align: start;
 }
 
 /* Table Rules */
 
-th, td {
-    border: solid 2px black;
-}
+th, td { border: solid 2px black; }
+
+th { color: white; }
 
 thead {
     background-color: black;
-    th{
-        color: white;
-    }
 }
 
 table {
