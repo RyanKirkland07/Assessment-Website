@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Email Signup </title>
+
+    <link href="../images/Logo.png" rel="icon">
+    <link href="../css/portfolio.css" rel="stylesheet">
+    <link href="../css/print.css" rel="stylesheet">
+
+    <!-- <style> form{border: solid 2px black;}</style> -->
+</head>
+<body onload="alert('Welcome to the Game Software Corporation - News Letter Signup')">
+    <form method="post" action="mailto:kryan8574@gmail.com" >
+        <fieldset>
+            <legend> Email Newsletter Sign Up</legend>
+            <!-- Names and Email -->
+            <fieldset>
+                <legend> Name and Email </legend>
+                <label for="fname"> First Name: </label>
+                <input type="text" maxlength="60" name="fname" id="fname">
+                <br>
+                <label for="lname"> Last Name: </label>
+                <input type="text" maxlength="60" name="lname" id="lname">
+                <br>
+                <label for="email"> Email: </label>
+                <input type="text" maxlength="60" name="email" id="email">
+                <br>
+            </fieldset>
+            <!-- Radios -->
+            <fieldset>
+                <legend> Age </legend>
+                <input type="radio" name="age-range" value="15-25" id="15-25">
+                <label for="15-25"> 15-25 </label>
+                <br>
+                <input type="radio" name="age-range" value="26-35" id="26-35">
+                <label for="26-35"> 26-35 </label>
+                <br>
+                <input type="radio" name="age-range" value="36-45" id="36-45">
+                <label for="36-45"> 36-45 </label>
+                <br>
+                <input type="radio" name="age-range" value="46-55" id="46-55">
+                <label for="46-55"> 46-55 </label>
+                <br>
+                <input type="radio" name="age-range" value="55+" id="55+">
+                <label for="55+"> 55+ </label>
+                <br>
+            </fieldset>
+            <!-- checkboxes -->
+            <fieldset>
+                <legend> Sectors </legend>
+                <input type="checkbox" name="sector" id="Development" value="Development">
+                <label for="Programming"> Programming </label>
+                <br>
+                <input type="checkbox" name="sector" id="Art-Design" value="Art-Design">
+                <label for="Art Design"> Art Design </label>
+                <br>
+                <input type="checkbox" name="sector" id="Marketing" value="Marketing">
+                <label for="Marketing"> Marketing </label>
+                <br>
+                <input type="checkbox" name="sector" id="Direction" value="Direction">
+                <label for="Direction"> Direction </label>
+                <br>
+                <input type="checkbox" name="sector" id="Storywriting" value="Storywriting">
+                <label for="Storywriting"> Storywriting </label>
+            </fieldset>
+        </fieldset>
+        <button id="submit"> Submit </button>
+        <button id="reset"> Reset </button>
+    </form>
+    <p id="paragraph"></p>
+    <script src="../js/email.js"></script>
+</body>
+</html>
