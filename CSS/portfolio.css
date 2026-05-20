@@ -198,3 +198,14 @@ footer {
     text-align: center;
     background-color: darkgray;
 }
+
+#js-example-frame {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+#js-example-selectors button {
+    border: solid 2px black;
+    border-radius: 9999px;
+    font-size: 14px;
+}
