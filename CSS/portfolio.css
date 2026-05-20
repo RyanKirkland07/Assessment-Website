@@ -207,5 +207,9 @@ footer {
 #js-example-selectors button {
     border: solid 2px black;
     border-radius: 9999px;
-    font-size: 14px;
+    font-size: 20px;
+    background-color: black;
+    color: lightgreen;
 }
+
+#js-example-selectors button:hover { color: red; }
