@@ -12,37 +12,46 @@
     <!-- <style> form{border: solid 2px black;}</style> -->
 </head>
 <body onload="alert('Welcome to the Game Software Corporation - News Letter Signup')">
-    <form method="post" action="mailto:kryan8574@gmail.com" >
+    <form method="post" id="email-form" >
         <fieldset>
             <legend> Email Newsletter Sign Up</legend>
             <!-- Names and Email -->
             <fieldset>
                 <legend> Name and Email </legend>
-                <label for="fname"> First Name: </label>
-                <input type="text" maxlength="60" name="fname" id="fname">
+
+                <label for="fname" class="text-input-label"> First Name: </label>
+                <input type="text" maxlength="60" name="fname" id="fname" class="form-text-input">
                 <br>
-                <label for="lname"> Last Name: </label>
-                <input type="text" maxlength="60" name="lname" id="lname">
+
+                <label for="lname" class="text-input-label"> Last Name: </label>
+                <input type="text" maxlength="60" name="lname" id="lname" class="form-text-input">
                 <br>
-                <label for="email"> Email: </label>
-                <input type="text" maxlength="60" name="email" id="email">
+
+                <label for="email" class="text-input-label"> Email: </label>
+                <input type="text" maxlength="60" name="email" id="email" class="form-text-input">
                 <br>
+
             </fieldset>
             <!-- Radios -->
             <fieldset>
                 <legend> Age </legend>
+
                 <input type="radio" name="age-range" value="15-25" id="15-25">
                 <label for="15-25"> 15-25 </label>
                 <br>
+
                 <input type="radio" name="age-range" value="26-35" id="26-35">
                 <label for="26-35"> 26-35 </label>
                 <br>
+
                 <input type="radio" name="age-range" value="36-45" id="36-45">
                 <label for="36-45"> 36-45 </label>
                 <br>
+
                 <input type="radio" name="age-range" value="46-55" id="46-55">
                 <label for="46-55"> 46-55 </label>
                 <br>
+
                 <input type="radio" name="age-range" value="55+" id="55+">
                 <label for="55+"> 55+ </label>
                 <br>
@@ -50,18 +59,23 @@
             <!-- checkboxes -->
             <fieldset>
                 <legend> Sectors </legend>
+
                 <input type="checkbox" name="sector" id="Development" value="Development">
                 <label for="Programming"> Programming </label>
                 <br>
+
                 <input type="checkbox" name="sector" id="Art-Design" value="Art-Design">
                 <label for="Art Design"> Art Design </label>
                 <br>
+
                 <input type="checkbox" name="sector" id="Marketing" value="Marketing">
                 <label for="Marketing"> Marketing </label>
                 <br>
+
                 <input type="checkbox" name="sector" id="Direction" value="Direction">
                 <label for="Direction"> Direction </label>
                 <br>
+
                 <input type="checkbox" name="sector" id="Storywriting" value="Storywriting">
                 <label for="Storywriting"> Storywriting </label>
             </fieldset>

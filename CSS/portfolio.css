@@ -213,3 +213,14 @@ footer {
 }
 
 #js-example-selectors button:hover { color: red; }
+
+.text-input-label {
+    clear: left;
+    width: 100px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.form-text-input, .text-input-label {
+    float: left;
+}
