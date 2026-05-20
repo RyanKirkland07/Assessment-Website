@@ -12,7 +12,7 @@
     <!-- <style> form{border: solid 2px black;}</style> -->
 </head>
 <body onload="alert('Welcome to the Game Software Corporation - News Letter Signup')">
-    <form method="post" id="email-form" >
+    <form method="post" id="email-form" onsubmit="return false">
         <fieldset>
             <legend> Email Newsletter Sign Up</legend>
             <!-- Names and Email -->
@@ -81,7 +81,7 @@
             </fieldset>
         </fieldset>
         <button id="submit"> Submit </button>
-        <button id="reset"> Reset </button>
+        <button id="resetBtn"> Reset </button>
     </form>
     <p id="paragraph"></p>
     <script src="../js/email.js"></script>

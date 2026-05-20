@@ -1,9 +1,11 @@
-let submit = document.querySelector("#submit");
+const SUBMIT = document.querySelector("#submit");
+const RESET = document.querySelector("#resetBtn");
 
-submit.addEventListener('click', processForm);
+SUBMIT.addEventListener('click', processForm);
+RESET.addEventListener('click', resetForm);
 
 function processForm(event){
-    let form = event.target.form;
+    let form = document.querySelector("#email-form");
 
     let p = document.querySelector("#paragraph");
     let radio = document.querySelector('input[name="age-range"]:checked').value;
@@ -12,4 +14,8 @@ function processForm(event){
     for(let i = 0; i < checkbox.length; i++){
         p.textContent += checkbox[i].value + " ";
     }
+}
+
+function resetForm(event){
+    document.querySelector("#email-form").reset();
 }
