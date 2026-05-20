@@ -199,6 +199,8 @@ footer {
     background-color: darkgray;
 }
 
+/* Rules for JS example */
+
 #js-example-frame {
     min-height: 100vh;
     min-width: 100vw;
@@ -213,6 +215,8 @@ footer {
 }
 
 #js-example-selectors button:hover { color: red; }
+
+/* Rules for email form */
 
 #email-form { box-shadow: 28px 10px 5px 0px rgb(65, 64, 64);}
 
