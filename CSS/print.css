@@ -1,6 +1,11 @@
 @media print{
     nav, footer, #sidebar {display: none;}
-    body { background-color: white; }
+    #email-form {box-shadow: none;}
     p, li, td { font-size: 20px; }
     h1, h2, h3 { font-size: 24px; }
+
+    * {
+        background-image: none !important;
+        background-color: white;
+    }
 }
