@@ -59,6 +59,8 @@ nav ul {
     font-size: 24px;
 }
 
+.nav-buttons.curr-page-nav { color: red;}
+
 .nav-li {
     background-color: black;
     border-radius: 9999px;
