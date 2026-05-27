@@ -237,8 +237,12 @@ footer {
 }
 
 #email-form label, #email-form input {
-    margin-bottom: 12px;
+    margin: 12px 8px;
 }
+
+.required-label { color: red; }
+
+::placeholder { color: red; }
 
 .text-input-label {
     clear: left;
