@@ -5,17 +5,27 @@ SUBMIT.addEventListener('click', processForm);
 RESET.addEventListener('click', resetForm);
 
 function processForm(event){
+    event.preventDefault();
+
     let form = document.querySelector("#email-form");
 
+    let fname = form.elements["fname"].value;
+    let lname = form.elements["lname"].value;
+    let email = form.elements["email"].value;
+    let ageRange = document.querySelector("input[name='age-range']:checked");
+    if(fname == "" || lname == "" || email == "" || ageRange == null){
+        alert("Please Provide Input For All Required Fields");
+        return false;
+    }
+
     let p = document.querySelector("#name");
-    p.textContent = `Hello, ${form.elements['fname'].value} ${form.elements['lname'].value}`;
+    p.textContent = `Hello, ${fname} ${lname}`;
 
     p = document.querySelector("#email");
-    p.textContent = `You signed up for the Game Software newsletter with the email ${form.elements['email'].value}`;
+    p.textContent = `You signed up for the Game Software newsletter with the email ${email}`;
 
     p = document.querySelector("#age");
-    let ageRange = document.querySelector('input[name="age-range"]:checked').value;
-    p.textContent = `You said you are in the ${ageRange} age range`;
+    p.textContent = `You said you are in the ${ageRange.value} age range`;
     
     p = document.querySelector("#sectors");
     let sectorBoxes = document.querySelectorAll('input[name="sector"]:checked');

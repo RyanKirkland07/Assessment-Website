@@ -12,7 +12,7 @@
     <!-- <style> form{border: solid 2px black;}</style> -->
 </head>
 <body onload="alert('Welcome to the Game Software Corporation - News Letter Signup')">
-    <form method="post" id="email-form" onsubmit="return false">
+    <form method="post" id="email-form">
         <fieldset>
             <legend> Email Newsletter Sign Up</legend>
             <!-- Names and Email -->
@@ -22,15 +22,15 @@
                 <aside class="required-label"> *required fields </aside>
 
                 <label for="fname" class="text-input-label"> First Name: </label>
-                <input type="text" maxlength="60" name="fname" id="fname" class="form-text-input" required placeholder="*required field">
+                <input type="text" maxlength="60" name="fname" id="fname" class="form-text-input" placeholder="*required field">
                 <br>
 
                 <label for="lname" class="text-input-label"> Last Name: </label>
-                <input type="text" maxlength="60" name="lname" id="lname" class="form-text-input" required placeholder="*required field">
+                <input type="text" maxlength="60" name="lname" id="lname" class="form-text-input" placeholder="*required field">
                 <br>
 
                 <label for="email" class="text-input-label"> Email: </label>
-                <input type="text" maxlength="60" name="email" id="email" class="form-text-input" required placeholder="*required field">
+                <input type="text" maxlength="60" name="email" id="email" class="form-text-input" placeholder="*required field">
                 <br>
 
             </fieldset>
@@ -40,7 +40,7 @@
 
                 <aside class="required-label"> *required field </aside>
 
-                <input type="radio" name="age-range" value="15-25" id="15-25" required>
+                <input type="radio" name="age-range" value="15-25" id="15-25">
                 <label for="15-25"> 15-25 </label>
                 <br>
 
