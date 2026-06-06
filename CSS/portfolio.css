@@ -245,7 +245,10 @@ footer {
     margin: 12px 8px;
 }
 
-.required-label { color: red; }
+.required-label { 
+    color: red;
+    display: none;
+}
 
 ::placeholder { color: red; }
 

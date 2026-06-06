@@ -17,6 +17,9 @@ function processForm(event){
     if(fname == "" || lname == "" || email == "" || ageRange == null){
         alert("Please Provide Input For All Required Fields");
         event.preventDefault();
+        for(let requried of document.querySelectorAll(".required-label")){
+            requried.style.display = "block";
+        }
         return false;
     }
 
