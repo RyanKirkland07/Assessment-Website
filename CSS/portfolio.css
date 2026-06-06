@@ -157,6 +157,11 @@ hr {
     font-size: 18px;
 }
 
+#award-img {
+    height: 350px;
+    width: auto;
+}
+
 /* Rules for Lists Unique to Different Web Pages */
 
 #index-content ul {
