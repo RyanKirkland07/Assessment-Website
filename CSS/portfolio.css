@@ -52,7 +52,6 @@ nav ul {
 }
 .nav-buttons {
     text-decoration-color: lightgreen;
-
     margin: 0 auto;
     padding: 12px;
     color: lightgreen;
@@ -64,7 +63,6 @@ nav ul {
 .nav-li {
     background-color: black;
     border-radius: 9999px;
-    margin-left: 12px;
 }
 
 /* hr rules - lets hr elements work within flex boxes */
@@ -168,7 +166,6 @@ hr {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 200px;
 }
 
 .resume-ul {
