@@ -222,7 +222,10 @@ footer {
 
 /* Rules for email form */
 
-#email-form { box-shadow: 28px 10px 5px 0px rgb(65, 64, 64);}
+#email-form { 
+    box-shadow: 28px 10px 5px 0px rgb(65, 64, 64);
+    margin-bottom: 18px;
+}
 
 #email-form fieldset {
     background-color: rgb(180, 180, 180);
