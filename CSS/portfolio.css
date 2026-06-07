@@ -55,7 +55,7 @@ nav ul {
     margin: 0 auto;
     padding: 12px;
     color: lightgreen;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .nav-buttons.curr-page-nav { color: red;}
