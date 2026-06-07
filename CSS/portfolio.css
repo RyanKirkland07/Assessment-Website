@@ -211,7 +211,7 @@ footer {
 }
 
 #js-example-selectors button {
-    border: solid 2px black;
+    border: solid 2px;
     border-radius: 9999px;
     font-size: 20px;
     background-color: black;
@@ -234,7 +234,6 @@ footer {
 }
 
 #email-form label {
-    color:light;
     border: dashed 2px black;
     background-color: darkgrey;
     border-radius: 12px;
